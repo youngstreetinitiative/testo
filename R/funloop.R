@@ -12,8 +12,11 @@ superdooperfunlooper <- function(funs = NULL){
 
   for (i in 1:funs) {
 
+    if(i < 50) {
     print(paste(i, "FUNS!", sep = " "))
-
+    } else{
+  print("All hail Clive")
+}
   }
 
 }
